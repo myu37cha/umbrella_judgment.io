@@ -1,0 +1,67 @@
+body {
+  font-family: 'Yu Gothic', sans-serif;
+  background: linear-gradient(to bottom, #fefefe, #e0f7fa);
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ff8c94;
+  margin-bottom: 10px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  position: relative;
+}
+
+.box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4a90e2;
+}
+
+.ponchan {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #fff8dc;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff8dc transparent transparent transparent;
+}
+
+.note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
